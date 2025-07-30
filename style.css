@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h3 {
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}

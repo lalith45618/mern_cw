@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
-        table{
-            text-align: center;
-            width: auto;
-            height: auto;
-
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            background-color: rgba(88, 88, 202, 0.514);
         }
+        .tab{
+            background-color: cadetblue;
+            padding: 8px;
+        table{
+            border-collapse: collapse;
+            margin: auto;
+            text-align: center;
+            width: 80%;
+        }
+        table, th, td{
+            border: 1px solid black;
+            padding: 6px;
+        }
+    }
+    .per{
+        background-color: burlywood;
+        padding: 6px;
+    }
+        .obj{
+            h3{
+                color: firebrick;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            background-color: rgb(233, 233, 73);
+            padding: 8px;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: brown;
+        }
+        img{
+            width: 15px;
+        }
+        .center {
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: violet;
+    padding: 15px;
+}
+.skill{
+    background-color: seagreen;
+    padding: 8px;
+}
+.int{
+    background-color: sienna;
+    padding: 8px;
+}
+.act{
+    background-color: skyblue;
+    padding: 8px;
+}
     </style>
 <head>
     <meta charset="UTF-8">
@@ -14,20 +65,24 @@
     <title>Lalith's Bommakanti</title>
 </head>
 <body>
-            <h1 style="text-align: center;"> Bommakanti Lalith Kumar </h1>
-        <p style="text-align: center;">Hno:1-1-323,Plot no 45,Road no4,Balaji colony,Mohannagar,Kothapet,Hyd-35
+            <h1 > Bommakanti Lalith Kumar </h1>
+        <div class="center"> Hno:1-1-323,Plot no 45,Road no4,Balaji colony,Mohannagar,Kothapet,Hyd-35
 8008793811 | 23eg105q04@anurag.edu.in
-</p>
-<center><img style="width: 15px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAh1BMVEUMZMX///8AYMTy9fohbsQAVLymv+T6/P4AVMCku+QJacRBgcsAXsMAYcPI1+0hdMe+0ewAWsLp8Pg1d8sNZcMATrpPgsyuwuQASLoAS7k6esidu+De6fVmmdRTh9B7pdiOr9xNe8yvx+Vxl9F7n9fT3vFmktKXtuCLp9gvcMqasd1Sis6LpdsxjZKDAAADvklEQVR4nO2cW3OqMBRGIaAoJ8EEolal1lrwUs///31H7XTUmt2jplzS+daDT8HJmuyEZLPB8wAAAAAAAAAAAAAAAAAAAAAAAIDa0B4X+59fAO89Db1BqCZDJZruiyVCTWe5fyCQz5q7PDxCzKV/In3RrOkuPQyLF5F/gXzlTXfqQbhe+l9JR6rpbj0Gv3bx/XykXJw4amFw8f0ybrpjD8CnqVEmmjkYaENTkB0DbercIiAGOSETrZ0bms4mIGR86dxOoCcpF78cuXbrZAkpk745NmlEXNIyhWOTRmxpmcA5Gf3dyDgWZp6i50y+ck2mN44omTJzbW1WBX2fcW1l3k8aagcQbDpNd+5uejMizvLQuZHxBCN2zZte0117ALUzDo0cNt2xh5h8zQAcg8zVhNNwfbWildpRl8P6XF4MTjp218XTfPp+0smXb4y5mM34hPNRsZZJmcjuZhU7tsG8himWZa9ZphV3N8TOEIwz8StMAABNIY403Qt7BFdKxNtsu9VMNbLGCzM3tbpowtV2V7x3l3LPsvtezEOlaj8T3STDjZx2PULpVT/Jz7asQS7HxbZTZ1ZEhDIxsjnf1KhCmkjCT2flvSSGA3ha9qed+qKNhURGo3ueAuj1zYfr7BhGWkyKnPibKO2K2vZ6lEx0h4zSkkxYHXR2T87I6M7KnEY4Masp1KxlBDcdu79QerUsa5Yy+1Wv/1+Vg822DhtbmXh2i8sh2VuDjaXMLTH2wbKGsbGTCedkqvrqDzeVu1jKkM+qDeTzyofGToYqIjA3rjyBZSdz64T5YNVumftIfpOMP63YplYZWfFjklpl/Ir3z/XKrKq1qVdGTpyQCUo53iPzbxum1U6an5FJx8VIc6V4vPtL10n5h51p62XkSit27KZgKlt8c1artlLqB2SidXieImOioG1mlRYX2MtEC3YZO4LR54Kk0kljL9O/ylxqTc6bstK12VomMbw4oN6oQMtbPWdS031Qx1TlV+BVuZzZyiSm91O0WhPtg7jKE5qlTPDcMT1lV1QqrdUyqfn0yDPiPB1UWitlKZNMjOUPZO1nq2XWxE1QEYtzm2UiqiiVqmRvtcyU6Ftv7KAM1bdO13xBq2WolRYykIEMZCADGchABjKQgQxkIAMZyEAGMpCBDGQgAxnIQAYykIEMZCADGci0SMYfX8gQBRe0DFWhMaj0jSA9MBOeNxLhHzPUJ13E4M4LfgghTK9gs8sPhBvbHFoRaI+ZL3D5gzYAAAAAAAAAAAAAAAAAAAAAAAAc4R9EJ1+F1EOl2QAAAABJRU5ErkJggg==" ><a href="www.linkedin.com/in/lalith-kumar-ba8178315">Linkedin Profile </a></center>
-<h3 style="background-color: lightgrey;">Objective</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="Icon">
+        <a href="https://www.linkedin.com/in/lalith-kumar-ba8178315">LinkedIn Profile</a>
+    </div>
+    <div class="obj">
+<h3 >Objective</h3>
 <p>I am Bommakanti Lalith Kumar, pursuing B.Tech in Computer Science and Engineering at Anurag
 University, with keen interest in Full stack Web Development, Machine Learning and Software
 Engineering. My coursework has equipped me with a solid foundation in programming. Actively involved
-in IEEE CIS AU SBC.</p>
-<h3 style="background-color: lightgrey;">Personal Details</h3>
-<li>Date of Birth : 18/07/2006</li>
-<h3 style="background-color: lightgrey;">Education</h3>
-<center><table border="|">
+in IEEE CIS AU SBC.</p></div>
+<div class="per">
+<h3 >Personal Details</h3>
+<li>Date of Birth : 18/07/2006</li></div>
+<div class="tab">
+<h3 >Education</h3>
+<table>
     <tr>
         <th>Instituation</th>
         <th>Course</th>
@@ -52,27 +107,30 @@ in IEEE CIS AU SBC.</p>
         <td>10</td>
         <td>2021</td>
     </tr>
-</table></center>
-<h3 style="background-color: lightgrey;">Skills</h3>
+</table></div>
+<div class="skill">
+<h3 >Skills</h3>
 <ul>
     <li>Programming Languages: Proficient in C, Python, Java with hands-on experience in solving
 algorithmic problems</li>
 <li>Data structures and algorithms: Strong understanding of core data structures and algorithmic
 techniques with practical experience in solving problems from various platforms</li>
 <li>Data Analysis: Skilled in sql for data base management and query optimization</li>
-</ul>
-<h3 style="background-color: lightgrey;">Internships</h3>
+</ul></div>
+<div class="int">
+<h3 >Internships</h3>
 <ul>
     <li>AWS DATA ENGINEERING VIRTUAL INTERNSHIP
 Gained experience in handling large scale data pipelines and cloud data services</li>
 <li>GOOGLE ANDROID DEVELOPER VIRTUAL INTERNSHIP
 Gained experience in developing android based applications using frameworks and integration of
 frontend/backend</li>
-</ul>
-<h3 style="background-color: lightgrey;">Activities</h3>
+</ul></div>
+<div class="act">
+<h3 >Activities</h3>
 <ul>
     <li>Active member of IEEE CIS AU SBC</li>
     <li>Video editing team lead of IEEE CIS AU SBC</li>
-</ul>
+</ul></div>
 </body>
 </html>
